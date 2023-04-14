@@ -1,0 +1,195 @@
+.card{
+    &__title{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 46px;
+        color: #2F281E;
+        padding-top: 30px;
+        padding-bottom: 16px;
+    }
+    &__text{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #544837;
+        padding-bottom: 24px;
+    }
+    &__btn{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        color: #544837;
+        padding: 2px 14px;
+        background: #FFFFFF;
+        border: 1px solid #D7D7D7;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    &__btn_first{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding: 2px 14px;
+        background-color: $primary-color;
+        border: 1px solid #D7D7D7;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    &__secondary_btn{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        color: #544837;
+        padding: 2px 14px;
+        background: #FFFFFF;
+        border: 1px solid #D7D7D7;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+
+    &__item_img{
+        margin-top: 31px;
+    }
+    &__secondary_item_title{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        color: #2F281E;
+        max-width: 310px;
+        padding-top: 24px;
+        padding-bottom: 29px;
+    }
+    &__secondary_item_btn{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        color: #544837;
+        padding: 2px 14px;
+        background: #FFFFFF;
+        border: 1px solid #D7D7D7;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    &__secondary_item_btnn{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        color: #544837;
+        padding: 2px 14px;
+        background: #FFFFFF;
+        border: 1px solid #D7D7D7;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    &__padding_block{
+        padding: 0 33px;
+    }
+    &__secondary_block{
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        max-width: 377px;
+    }
+
+    &__secondary_item_titlee{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        color: $primary-color;
+        max-width: 310px;
+        padding-top: 24px;
+        padding-bottom: 29px;
+    }
+    &__secondary_block{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+
+
+
+
+    &__sub_block_left{
+        max-width: 787px;
+    }
+    &__sub_item_img{
+        margin-top: 56px;
+    }
+    &__sub_item_title{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        color: #2F281E;
+        max-width: 719px;
+        margin-top: 26px;
+        margin-bottom: 24px;
+    }
+    &__sub_item_btn{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        color: #544837;
+        padding: 2px 14px;
+        background: #FFFFFF;
+        border: 1px solid #D7D7D7;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    &__sub_item_btnn{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        color: #544837;
+        padding: 2px 14px;
+        background: #FFFFFF;
+        border: 1px solid #D7D7D7;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+
+    &__sub_item_titlee{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        color: #2F281E;
+        max-width: 370px;
+        margin-top: 24px;
+        margin-bottom: 29px;
+    }
+    &__sub_block_right{
+        max-width: 377px;
+    }
+    &__sub_block{
+        display: flex;
+        gap: 85px;
+    }
+}

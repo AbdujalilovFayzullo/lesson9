@@ -1,0 +1,40 @@
+@import 'mixin';
+@import 'normaliza';
+@import 'variable';
+
+
+@import 'block/header';
+@import 'block/navbar';
+@import 'block/wrapper';
+@import 'block/card';
+@import 'block/about';
+@import 'block/contact';
+@import 'block/footer';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
